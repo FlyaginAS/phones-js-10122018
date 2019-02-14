@@ -1,4 +1,5 @@
 import { BaseComponent } from '../../common/components/base/base.component.js';
+import {PhonesPageComponent} from "../phones-page.component.js";
 
 export class OnePhoneViewComponent extends BaseComponent{
 
@@ -12,7 +13,7 @@ export class OnePhoneViewComponent extends BaseComponent{
     this._element.innerHTML = `
        <img class="phone" src="assets/img/phones/motorola-xoom-with-wi-fi.0.jpg">
 
-    <button>Back</button>
+    <button class="back">Back</button>
     <button>Add to basket</button>
 
 
@@ -37,7 +38,7 @@ export class OnePhoneViewComponent extends BaseComponent{
         <img src="assets/img/phones/motorola-xoom-with-wi-fi.4.jpg">
       </li>
       <li>
-        <img src="img/phones/motorola-xoom-with-wi-fi.5.jpg">
+        <img src="assets/img/phones/motorola-xoom-with-wi-fi.5.jpg">
       </li>
     </ul>
 
